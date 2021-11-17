@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-fluid">
+    <a href="/api/v1/ReporteDiario">Reporte Diario</a>
+    <br/>
+    <a href="/api/v1/Status">Status</a>
+    <table style="border: 1px solid black;" id="tab1">
+    </table>
+    <div class="container-fluid">
+        <textarea id="texto" style="width: 650px;"></textarea>
+    </div>
+</div>
+<script src="~/js/statuscheck.js"></script>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/js/hub.js"></script>
